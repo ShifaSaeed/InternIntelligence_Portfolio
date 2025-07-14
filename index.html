@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shifa's Portfolio</title>
+  <title>Sarah's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
   <header class="navbar glass">
@@ -28,109 +30,212 @@
 
   <section id="home" class="section home-section gradient-bg">
     <div class="intro animate fade-in-up">
-      <h2>Hi, I'm <span class="highlight">Shifa Saeed</span></h2>
+      <h2>Hi, I'm <span class="highlight">Sarah Shahzaib</span></h2>
       <p class="delay-1">Creative Frontend Developer and Graphic Designer <br>skilled in building responsive interfaces and visually<br>
          engaging designs using HTML, CSS, JavaScript, Adobe Suite,<br> and Figma.</p>
     </div>
   </section>
 
   <section id="about" class="section color-bg">
-    <h2 class="animate fade-in-up">About Me</h2>
-    <div class="about-content animate zoom-in">
-      <img src="assets/GitHub-DP.jpg" alt="Profile" />
-      <p>
-        I'm a Software Engineering student with a creative passion for visual design and user interfaces. I combine my Graphic Design skills and Front-End expertise to build responsive, animated, and user-friendly web applications. From structured HTML to styled components and digital artwork, I believe in blending logic with beauty.
-      </p>
+  <h2 class="animate fade-in-up">About Me</h2>
+  <div class="about-container animate zoom-in">
+    <div class="about-image">
+      <img src="assets/GitHub-DP.jpg" alt="Shifa's Profile">
     </div>
-  </section>
+    <div class="about-text">
+      <p id="typing-text"></p>
+    </div>
+  </div>
+</section>
 
-  <section id="skills" class="section gradient-bg">
-    <h2 class="animate fade-in-up">Expertise & Skills</h2>
-    <div class="skills-list animate fade-in-up delay-1">
-      <span>HTML5</span>
-      <span>CSS3</span>
-      <span>JavaScript</span>
-      <span>Bootstrap</span>
-      <span>React</span>
-      <span>Git & GitHub</span>
-      <span>Graphic Design</span>
-      <span>Adobe Photoshop</span>
-      <span>Illustrator</span>
-      <span>Design Thinking</span>
-      <span>Problem Solving</span>
-    </div>
-  </section>
+<section id="skills" class="section gradient-bg">
+  <h2 class="animate fade-in-up">Expertise & Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card animate zoom-in"><span><i class="fa-brands fa-html5"></i></span> HTML5</div>
+    <div class="skill-card animate zoom-in delay-1"><span><i class="fa-brands fa-css3-alt"></i></span> CSS3</div>
+    <div class="skill-card animate zoom-in delay-2"><span><i class="fa-brands fa-js"></i></span> JavaScript</div>
+    <div class="skill-card animate zoom-in delay-3"><span><i class="fa-brands fa-bootstrap"></i></span> Bootstrap</div>
+    <div class="skill-card animate zoom-in delay-4"><span><i class="fa-brands fa-react"></i></span> React</div>
+    <div class="skill-card animate zoom-in delay-5"><span><i class="fa-brands fa-git-alt"></i></span> Git</div>
+    <div class="skill-card animate zoom-in delay-6"><span><i class="fa-brands fa-github"></i></span> GitHub</div>
+    <div class="skill-card animate zoom-in delay-7"><span><i class="fa-solid fa-pen-nib"></i></span> Graphic Design</div>
+    <div class="skill-card animate zoom-in delay-8"><span><i class="fa-solid fa-image"></i></span> Adobe Photoshop</div>
+    <div class="skill-card animate zoom-in delay-9"><span><i class="fa-solid fa-pencil"></i></span> Illustrator</div>
+    <div class="skill-card animate zoom-in delay-10"><span><i class="fa-solid fa-brain"></i></span> Design Thinking</div>
+    <div class="skill-card animate zoom-in delay-11"><span><i class="fa-solid fa-screwdriver-wrench"></i></span> Problem Solving</div>
+  </div>
+</section>
+
+
 
   <section id="experience" class="section color-bg">
-    <h2 class="animate fade-in-up">Experience</h2>
-    <div class="animate zoom-in">
-      <h3>Graphics Sales Executive – Apex Creativity Ltd, Karachi</h3>
-      <p>2023 – 2024</p>
-      <p>As a Remote Graphics Sales Executive, I merge tech expertise with effective communication to deliver client-focused visual solutions that exceed expectations.</p>
+  <h2 class="animate fade-in-up">Professional Experience</h2>
+  <div class="timeline">
+
+    <div class="timeline-item animate fade-in-up">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Graphics Sales Executive</h3>
+        <span class="timeline-date">2023 – 2024</span>
+        <p>Apex Creativity Ltd, Karachi (Remote)<br>
+        Merged design expertise with persuasive communication to deliver client-focused creative solutions and close high-value deals.</p>
+      </div>
     </div>
-  </section>
+
+    <div class="timeline-item animate fade-in-up delay-1">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Front-End Developer (Freelance)</h3>
+        <span class="timeline-date">2022 – 2023</span>
+        <p>Designed and built responsive, interactive websites for clients using HTML, CSS, JS, and Figma — ensuring both design and performance.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item animate fade-in-up delay-2">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Intern – Web Designer</h3>
+        <span class="timeline-date">Summer 2022</span>
+        <p>Collaborated with design teams to create UI mockups and build landing pages during a 6-week internship at a local software house.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
   <section id="education" class="section gradient-bg">
-    <h2 class="animate fade-in-up">Education</h2>
-    <div class="animate zoom-in">
-      <p><strong>BS in Software Engineering</strong><br>Jinnah University for Women, Karachi – 2023 onwards</p><br>
-      <p><strong>DAE</strong><br>Govt. Polytechnical Institute For Women – 2020 to 2022</p><br>
-      <p><strong>SSC / Matriculation</strong><br>FJ Grammar School, Karachi – 2005 to 2018</p>
+  <h2 class="animate fade-in-up">Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item animate fade-in-up">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>BS in Software Engineering</h3>
+        <span class="timeline-date">2023 – Present</span>
+        <p>Jinnah University for Women, Karachi</p>
+      </div>
     </div>
-  </section>
+
+    <div class="timeline-item animate fade-in-up delay-1">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>DAE (Computer Science)</h3>
+        <span class="timeline-date">2020 – 2022</span>
+        <p>Govt. Polytechnical Institute For Women</p>
+      </div>
+    </div>
+
+    <div class="timeline-item animate fade-in-up delay-2">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>SSC / Matriculation</h3>
+        <span class="timeline-date">2005 – 2018</span>
+        <p>FJ Grammar School, Karachi</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
   <section id="projects" class="section color-bg">
-    <h2 class="animate fade-in-up">Projects</h2>
-    <div class="projects">
-      <div class="project-card animate zoom-in">
-        <h3>Academia Online Coaching</h3>
-        <p>HTML, CSS, JavaScript, Bootstrap 5, React</p>
-      </div>
-      <div class="project-card animate zoom-in">
-        <h3>Nature Beauty Website</h3>
-        <p>HTML, CSS, JavaScript</p>
-      </div>
-      <div class="project-card animate zoom-in">
-        <h3>Qureshi Catering Website</h3>
-        <p>HTML, CSS, JavaScript</p>
-      </div>
-      <div class="project-card animate zoom-in">
-        <h3>Rosa Beauty Salon System</h3>
-        <p>HTML, CSS, JavaScript, PHP, SQL</p>
-      </div>
-      <div class="project-card animate zoom-in">
-        <h3>Coffee Shop Website</h3>
-        <p>HTML, CSS, Bootstrap</p>
-      </div>
-      <div class="project-card animate zoom-in">
-        <h3>Hotel Reservation System</h3>
-        <p>Python</p>
-      </div>
-    </div>
-  </section>
+  <h2 class="animate fade-in-up">Projects</h2>
+  <div class="projects-grid">
 
-  <section id="courses" class="section gradient-bg">
-    <h2 class="animate fade-in-up">Courses</h2>
-    <div class="animate zoom-in">
-      <p>✓ English Language</p>
-      <p>✓ CIT (Computer Information Technology)</p>
-      <p>✓ Graphic Designing</p>
-      <p>✓ Front-End Development</p>
+    <div class="project-card animate zoom-in">
+      <h3>Academia Online Coaching</h3>
+      <p class="stack">HTML, CSS, JavaScript, Bootstrap 5, React</p>
     </div>
-  </section>
 
-  <section id="contact" class="section color-bg">
-    <h2 class="animate fade-in-up">Contact</h2>
-    <p class="animate fade-in-up delay-1">Let's connect!</p>
-    <div class="contact-box animate zoom-in">
-      <p>Email: <a href="mailto:shifa.saeed97@gmail.com">shifa.saeed97@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/shifa-saeed-2940a3292/">linkedin.com/in/shifa-saeed</a></p>
-      <p>GitHub: <a href="https://github.com/ShifaSaeed">github.com/ShifaSaeed</a></p>
+    <div class="project-card animate zoom-in delay-1">
+      <h3>Nature Beauty Website</h3>
+      <p class="stack">HTML, CSS, JavaScript</p>
     </div>
-  </section>
+
+    <div class="project-card animate zoom-in delay-2">
+      <h3>Qureshi Catering Website</h3>
+      <p class="stack">HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="project-card animate zoom-in delay-3">
+      <h3>Rosa Beauty Salon System</h3>
+      <p class="stack">HTML, CSS, JavaScript, PHP, SQL</p>
+    </div>
+
+    <div class="project-card animate zoom-in delay-4">
+      <h3>Coffee Shop Website</h3>
+      <p class="stack">HTML, CSS, Bootstrap</p>
+    </div>
+
+    <div class="project-card animate zoom-in delay-5">
+      <h3>Hotel Reservation System</h3>
+      <p class="stack">Python</p>
+    </div>
+
+  </div>
+</section>
+
+
+ <section id="courses" class="section gradient-bg">
+  <h2 class="animate fade-in-up">Courses</h2>
+  <div class="courses-grid">
+
+    <div class="course-card animate zoom-in">
+      <span><i class="fa-solid fa-book-open-reader"></i></span>
+      <h3>English Language</h3>
+    </div>
+
+    <div class="course-card animate zoom-in delay-1">
+      <span><i class="fa-solid fa-computer"></i></span>
+      <h3>CIT (Computer Information Technology)</h3>
+    </div>
+
+    <div class="course-card animate zoom-in delay-2">
+      <span><i class="fa-solid fa-paintbrush"></i></span>
+      <h3>Graphic Designing</h3>
+    </div>
+
+    <div class="course-card animate zoom-in delay-3">
+      <span><i class="fa-solid fa-code"></i></span>
+      <h3>Front-End Development</h3>
+    </div>
+
+  </div>
+</section>
+
+
+ <section id="contact" class="section color-bg">
+  <h2 class="animate fade-in-up">Contact</h2>
+  <p class="animate fade-in-up delay-1">Let's connect and create something amazing!</p>
+
+  <div class="contact-grid animate zoom-in delay-2">
+
+    <a href="mailto:shifa.saeed97@gmail.com" class="contact-card">
+      <span><i class="fa-solid fa-envelope"></i></span>
+      <h3>Email</h3>
+      <p>sarahshah9@gmail.com</p>
+    </a>
+
+    <a href="https://www.linkedin.com/in/sarah-shahzaib-2840a3292/" target="_blank" class="contact-card">
+      <span><i class="fa-brands fa-linkedin"></i></span>
+      <h3>LinkedIn</h3>
+      <p>/sarah-shahzaib</p>
+    </a>
+
+    <a href="https://github.com/Sarahshahzaib" target="_blank" class="contact-card">
+      <span><i class="fa-brands fa-github"></i></span>
+      <h3>GitHub</h3>
+      <p>/sarahshahzaib</p>
+    </a>
+
+  </div>
+</section>
+
+
 
   <footer>
-    <p>&copy; 2025 Shifa Saeed | Portfolio</p>
+    <p>&copy; 2025 Sarah Shahzaib | Portfolio</p>
   </footer>
 </body>
 </html>
