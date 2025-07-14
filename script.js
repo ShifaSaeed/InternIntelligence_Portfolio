@@ -15,7 +15,7 @@ function handleScroll() {
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("load", handleScroll);
 
-// Dark Mode Toggle 🌜/☀️
+// Dark Mode Toggle 
 const toggleBtn = document.getElementById("theme-toggle");
 
 toggleBtn.addEventListener("click", () => {
@@ -35,11 +35,11 @@ function typeWriter() {
   if (index < aboutText.length) {
     typingElement.innerHTML += aboutText.charAt(index);
     index++;
-    setTimeout(typeWriter, 25); // typing speed
+    setTimeout(typeWriter, 25); 
   }
 }
 
 window.addEventListener("load", () => {
-  setTimeout(typeWriter, 500); // slight delay after page load
+  setTimeout(typeWriter, 500); 
 });
  
